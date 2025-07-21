@@ -1,29 +1,34 @@
-# 🌳 ML - Decision Tree Classifier
+# 🌿 ML - Decision Tree (Iris Dataset)
 
-A simple and beginner-friendly implementation of the **Decision Tree Classification Algorithm** using Python and Scikit-learn. This project demonstrates how a machine learning model can be built, trained, and evaluated on a dataset using a decision tree.
+A simple and intuitive implementation of the **Decision Tree Classifier** using Python and Scikit-learn on the famous **Iris flower dataset**. This project demonstrates basic machine learning steps: data loading, preprocessing, model training, evaluation, and visualization.
 
-## 📌 Project Highlights
+## 📌 Features
 
+- Loads and visualizes the Iris dataset
+- Splits data into training and test sets
 - Trains a Decision Tree Classifier using Scikit-learn
-- Explores dataset, cleans data, and applies preprocessing
-- Evaluates model accuracy
-- Visualizes decision tree structure (optional)
-- Implemented using **Jupyter Notebook**
+- Evaluates performance using accuracy and classification report
+- Visualizes the trained decision tree
+
+## 📊 Dataset: Iris
+
+The Iris dataset is a classic dataset in machine learning that includes:
+
+- 150 samples
+- 3 classes: Setosa, Versicolor, Virginica
+- 4 features: sepal length, sepal width, petal length, petal width
+
+Loaded directly using `sklearn.datasets.load_iris()`.
 
 ## 🧠 Tech Stack
 
 - **Python**
+- **Scikit-learn**
 - **Pandas**
 - **NumPy**
-- **Scikit-learn**
-- **Matplotlib / Seaborn** *(optional for visualization)*
+- **Matplotlib**
 
-## 📁 Dataset
-
-The project uses a dataset related to [insert dataset topic here, e.g., Iris, Titanic, etc.].  
-*(You can replace this line with the dataset name and link if public.)*
-
-## 🚀 How to Run
+## 🛠 How to Run
 
 1. **Clone the repository**
    ```bash
@@ -31,30 +36,46 @@ The project uses a dataset related to [insert dataset topic here, e.g., Iris, Ti
    cd ML-Decision-Tree
    ```
 
-2. **Install dependencies**
+2. **Install required libraries**
+   *(If not already installed)*
    ```bash
-   pip install -r requirements.txt
+   pip install pandas numpy scikit-learn matplotlib
    ```
 
-3. **Open the Jupyter Notebook**
-   ```bash
-   jupyter notebook
-   ```
+3. **Run the script**
 
-4. **Run the notebook cells** to train and evaluate the model.
+   - Open the `.ipynb` file in Jupyter Notebook  
+     **OR**  
+   - Run the Python file directly (if available)
 
-## 📈 Output
+4. **Output**
+   - Accuracy of the model
+   - Classification report (precision, recall, f1-score)
+   - A decision tree visualization plot
 
-- Training Accuracy
-- Prediction Results
-- Confusion Matrix *(optional)*
-- Decision Tree Structure *(optional visualization)*
+## 📸 Output Preview
 
-## 📌 Future Improvements
+![Decision Tree Visualization](assets/decision_tree_example.png)  
+*Note: Add your plot screenshot in the `assets/` folder and name it accordingly.*
 
-- Add GUI using Streamlit
-- Compare with other ML algorithms (Random Forest, SVM, etc.)
-- Hyperparameter tuning using GridSearchCV
+## 📈 Sample Results
+
+```text
+Accuracy: 1.0
+
+Classification Report:
+              precision    recall  f1-score   support
+
+      setosa       1.00      1.00      1.00        16
+  versicolor       1.00      1.00      1.00        14
+   virginica       1.00      1.00      1.00        15
+```
+
+## 🚀 Future Enhancements
+
+- Add GUI using Streamlit for interactive predictions
+- Allow input of custom flower measurements
+- Add model comparison (e.g., Random Forest, KNN)
 
 ## 📄 License
 
@@ -62,8 +83,8 @@ This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-### 🙌 Contributions
+### 🌟 Contributions
 
-Contributions are welcome! Feel free to fork the repository, submit issues, or open a pull request.  
-If you found this helpful, ⭐ star the repo!
+Have an idea to improve this? Feel free to fork the repo, open issues, or submit a pull request!  
+If you found this helpful, don’t forget to ⭐ star the repository.
 
