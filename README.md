@@ -58,7 +58,7 @@ Loaded directly using `sklearn.datasets.load_iris()`.
 ![Decision Tree Visualization](assets/decision_tree_example.png)  
 *Note: Add your plot screenshot in the `assets/` folder and name it accordingly.*
 
-## 📈 Sample Results
+## Sample Results
 
 ```text
 Accuracy: 1.0
@@ -71,7 +71,7 @@ Classification Report:
    virginica       1.00      1.00      1.00        15
 ```
 
-## 🚀 Future Enhancements
+## Future Enhancements
 
 - Add GUI using Streamlit for interactive predictions
 - Allow input of custom flower measurements
