@@ -1,8 +1,8 @@
-# 🌿 ML - Decision Tree (Iris Dataset)
+# ML - Decision Tree (Iris Dataset)
 
 A simple and intuitive implementation of the **Decision Tree Classifier** using Python and Scikit-learn on the famous **Iris flower dataset**. This project demonstrates basic machine learning steps: data loading, preprocessing, model training, evaluation, and visualization.
 
-## 📌 Features
+## Features
 
 - Loads and visualizes the Iris dataset
 - Splits data into training and test sets
