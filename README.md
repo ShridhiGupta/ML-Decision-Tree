@@ -10,7 +10,7 @@ A simple and intuitive implementation of the **Decision Tree Classifier** using 
 - Evaluates performance using accuracy and classification report
 - Visualizes the trained decision tree
 
-## 📊 Dataset: Iris
+## Dataset: Iris
 
 The Iris dataset is a classic dataset in machine learning that includes:
 
@@ -20,7 +20,7 @@ The Iris dataset is a classic dataset in machine learning that includes:
 
 Loaded directly using `sklearn.datasets.load_iris()`.
 
-## 🧠 Tech Stack
+## Tech Stack
 
 - **Python**
 - **Scikit-learn**
