@@ -53,11 +53,6 @@ Loaded directly using `sklearn.datasets.load_iris()`.
    - Classification report (precision, recall, f1-score)
    - A decision tree visualization plot
 
-## Output Preview
-
-![Decision Tree Visualization](assets/decision_tree_example.png)  
-*Note: Add your plot screenshot in the `assets/` folder and name it accordingly.*
-
 ## Sample Results
 
 ```text
