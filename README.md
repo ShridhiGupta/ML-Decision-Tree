@@ -77,13 +77,13 @@ Classification Report:
 - Allow input of custom flower measurements
 - Add model comparison (e.g., Random Forest, KNN)
 
-## 📄 License
+## License
 
 This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-### 🌟 Contributions
+### Contributions
 
 Have an idea to improve this? Feel free to fork the repo, open issues, or submit a pull request!  
 If you found this helpful, don’t forget to ⭐ star the repository.
